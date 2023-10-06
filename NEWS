@@ -1,3 +1,5 @@
+* 0.0.4
+  - Ex-04-Webscraping-Online-Data-Files.Rmd Vignette: Added `self_contained: false` so during period CRAN builds, when Flickr images are not reachable, that pandoc not error out (fail gracefully)
 * 0.0.3
   - Vignettes: Added `knitr::opts_chunk$set(error=TRUE)` in vignettes in case CRAN build does not have internet, fail gracefully
 * 0.0.1
